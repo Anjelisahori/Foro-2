@@ -28,53 +28,85 @@ SQLite3 (base de datos local)
 Clona el repositorio:
 
 bash
+
 Copiar
+
 Editar
+
 git clone https://github.com/Anjelisahori/Foro-2.git
+
 cd tu-repositorio
+
 Crea y activa un entorno virtual:
 
 bash
+
 Copiar
+
 Editar
+
 python -m venv env
+
 Luego activa el entorno:
 
 Windows:
 
 bash
+
 Copiar
+
 Editar
+
 .\env\Scripts\activate
+
 Mac/Linux:
 
 bash
+
 Copiar
+
 Editar
+
 source env/bin/activate
+
 Instala las dependencias:
 
 bash
+
 Copiar
+
 Editar
+
 pip install django requests
+
 Aplica las migraciones de la base de datos:
 
 bash
+
 Copiar
+
 Editar
+
 python manage.py migrate
+
 Corre el servidor de desarrollo:
 
 bash
+
 Copiar
+
 Editar
+
 python manage.py runserver
+
 Accede a la aplicación:
 
 cpp
+
 Copiar
+
 Editar
+
 http://127.0.0.1:8000/
 
 🛠️ Funcionalidades principales
