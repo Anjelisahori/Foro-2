@@ -132,7 +132,10 @@ Mejorar visualización de libros externos (agregar portadas).
 Paginación para listas grandes de libros.
 
 📄 Licencia
+
 Este proyecto forma parte de Proyecto Anjeli y ha sido desarrollado para fines educativos y personales.
+
 Creado con ❤️ usando Django y Bootstrap.
+
 
 
