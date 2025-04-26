@@ -1,44 +1,40 @@
-📚 Proyecto Anjeli - Mi Biblioteca Personal
+# ✨ Proyecto Anjeli - Mi Biblioteca Personal 📚
 
+Bienvenido a **Proyecto Anjeli**, una aplicación web creada con Django, que permite gestionar tu colección de libros, explorar títulos externos y reservar tus favoritos.  
+Todo con un diseño moderno y una experiencia de usuario amigable. 🚀
 
-Bienvenido a Proyecto Anjeli, una aplicación web desarrollada con Django, donde puedes:
+---
 
-Gestionar tus libros favoritos (agregar, editar y eliminar).
+## 📋 Características Principales
 
-Ver libros externos desde una API pública (Gutendex).
+- 📖 **CRUD completo** de libros personales (agregar, editar, eliminar).
+- 🌐 **Exploración de libros** en línea a través de una API externa (Gutendex).
+- 📌 **Reserva de libros externos**, almacenados en la base de datos local.
+- 📜 **Listado de reservas** con fecha y hora de registro.
+- 🎨 **Diseño moderno** usando Bootstrap 5 y Bootstrap Icons.
 
-Reservar libros externos.
+---
 
-Consultar tu lista de libros reservados.
+## 🛠️ Tecnologías Utilizadas
 
-🚀 Tecnologías Utilizadas
+| Herramienta | Descripción |
+|:------------|:------------|
+| Python 3.12 | Lenguaje de programación |
+| Django 5.2  | Framework web backend |
+| SQLite3     | Base de datos ligera integrada |
+| Bootstrap 5 | Librería CSS para el diseño frontend |
+| Bootstrap Icons | Librería de íconos modernos |
 
-Python 3.12
+---
 
-Django 5.2
+## ⚙️ Instalación Rápida
 
-Bootstrap 5.3
+1. 🔥 **Clona el repositorio:**
 
-Bootstrap Icons
-
-SQLite3 (base de datos local)
-
-📦 Instalación y ejecución
-
-Clona el repositorio:
-
-bash
-
-Copiar
-
-Editar
-
-git clone https://github.com/Anjelisahori/Foro-2.git
-
-cd tu-repositorio
-
-Crea y activa un entorno virtual:
-
+   ```bash
+   git clone (https://github.com/Anjelisahori/Foro-2.git)
+   cd tu-repositorio
+2. 🛡️ Crea y activa un entorno virtual:
 bash
 
 Copiar
@@ -47,7 +43,7 @@ Editar
 
 python -m venv env
 
-Luego activa el entorno:
+3. Luego activa el entorno:
 
 Windows:
 
@@ -69,7 +65,7 @@ Editar
 
 source env/bin/activate
 
-Instala las dependencias:
+📦 Instala las dependencias necesarias:
 
 bash
 
@@ -79,7 +75,7 @@ Editar
 
 pip install django requests
 
-Aplica las migraciones de la base de datos:
+🛠️ Aplica las migraciones de base de datos:
 
 bash
 
@@ -89,7 +85,7 @@ Editar
 
 python manage.py migrate
 
-Corre el servidor de desarrollo:
+🚀 Inicia el servidor:
 
 bash
 
@@ -99,7 +95,7 @@ Editar
 
 python manage.py runserver
 
-Accede a la aplicación:
+🌐 Abre el navegador y accede:
 
 cpp
 
@@ -109,33 +105,17 @@ Editar
 
 http://127.0.0.1:8000/
 
-🛠️ Funcionalidades principales
 
-CRUD completo de libros (crear, leer, actualizar y eliminar libros locales).
+🌟 Mejoras Futuras
 
-Vista de libros en línea desde una API externa.
+❌ Agregar opción para cancelar una reserva.
 
-Reserva de libros externos, que se almacenan en tu propia base de datos.
+🔑 Implementar login y perfiles de usuarios.
 
-Listado de libros reservados con fecha y hora.
+📚 Mostrar portadas de libros obtenidas desde la API.
 
-Diseño moderno usando Bootstrap 5 y Bootstrap Icons.
+📃 Añadir paginación para listas largas de libros.
 
-✨ Mejoras futuras
-
-Cancelar reservas existentes.
-
-Registro y login de usuarios.
-
-Mejorar visualización de libros externos (agregar portadas).
-
-Paginación para listas grandes de libros.
-
-📄 Licencia
-
-Este proyecto forma parte de Proyecto Anjeli y ha sido desarrollado para fines educativos y personales.
-
-Creado con ❤️ usando Django y Bootstrap.
-
-
-
+📝 Licencia
+Este proyecto ha sido desarrollado para fines educativos y personales bajo el nombre de Proyecto Anjeli.
+Hecho con ❤️ usando Django y Bootstrap.
