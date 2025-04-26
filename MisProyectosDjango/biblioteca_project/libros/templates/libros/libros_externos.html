@@ -1,0 +1,36 @@
+{% extends 'libros/base.html' %}
+
+{% block content %}
+<h2 class="mb-4 text-primary">📚 Libros desde API Externa</h2>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% for libro in libros %}
+        <div class="col">
+            <div class="card shadow-sm h-100">
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="card-title">{{ libro.title }}</h5>
+                        <p class="card-text">
+                            <strong>Autor(es):</strong>
+                            {% for autor in libro.authors %}
+                                {{ autor.name }}{% if not forloop.last %}, {% endif %}
+                            {% empty %}
+                                No disponibles
+                            {% endfor %}
+                        </p>
+                    </div>
+
+                    <div class="mt-3">
+                        <!-- Botón corregido para reservar -->
+                        <a href="{% url 'reservar_libro' %}?titulo={{ libro.title|urlencode }}" class="btn btn-success btn-sm w-100">
+                            <i class="bi bi-bookmark-fill"></i> Reservar Libro
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% empty %}
+        <p>No se encontraron libros externos.</p>
+    {% endfor %}
+</div>
+{% endblock %}
