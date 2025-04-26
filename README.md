@@ -1,5 +1,7 @@
 📚 Proyecto Anjeli - Mi Biblioteca Personal
-Bienvenido a Proyecto Anjeli, una aplicación web desarrollada con Django 5, donde puedes:
+
+
+Bienvenido a Proyecto Anjeli, una aplicación web desarrollada con Django, donde puedes:
 
 Gestionar tus libros favoritos (agregar, editar y eliminar).
 
